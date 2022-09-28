@@ -12,9 +12,10 @@
 排除問題之後終於能夠繼續往下走！ 
 
 ### 訓練過程說明
-- 使用ResNet50及ResNet152來訓練模型，並且比較結果！
+- 使用ResNet50及ResNet152來訓練模型，並且比較結果  
+- 除了使用ResNet外，也有使用VGG16去做訓練，在相同的資料條件之下，結果並不是很好！
 - 嘗試將一部分的training data拿來做validation data，但目前看起來效果並不是很好。
-- 一樣將一部分的training data分割出來當作validation data，並且使用data augmentation來增加training data的資料量！
+- 嘗試將一部分的training data分割出來當作validation data，並且使用data augmentation來增加training data的資料量！
 
 
 ### Result of ResNet50
