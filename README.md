@@ -19,6 +19,18 @@
 
 ### Result of ResNet50
 #### Model accuracy
-![acc](https://user-images.githubusercontent.com/62006029/192515160-2cf0c59f-e58b-4353-8230-15a2f880ba51.png)
+![ResNet50_acc](https://user-images.githubusercontent.com/62006029/192693277-c40b3b15-5bc5-4835-b07e-bf1afcb45301.png)
 #### Model loss
-![loss](https://user-images.githubusercontent.com/62006029/192515201-5cd482b6-59dd-4a5b-841d-0b64647fb1cf.png)
+![ResNet50_loss](https://user-images.githubusercontent.com/62006029/192693302-90b27bd8-5080-4652-98dd-544c19aa6669.png)
+
+### Result of ResNet152
+#### Model accuracy
+![ResNet152_acc](https://user-images.githubusercontent.com/62006029/192693166-b9e1708f-265a-44bd-a79b-39d0b58c680d.png)
+#### Model loss
+![ResNet152_loss](https://user-images.githubusercontent.com/62006029/192693174-d6d15637-80b1-42be-a340-438422bc54f6.png)
+
+### Comparison
+#### Model accuracy
+![2model_acc](https://user-images.githubusercontent.com/62006029/192693721-8a73eada-d29e-418c-bcf3-19e5f02def85.png)
+#### Model loss
+![2model_loss](https://user-images.githubusercontent.com/62006029/192693767-aed7ac87-3ee8-47db-a5d8-fdfb0c100aa6.png)
