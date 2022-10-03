@@ -51,5 +51,5 @@
 ![VGG16_loss](https://user-images.githubusercontent.com/62006029/193500098-8e4501bf-ff4c-465b-b9f4-a9124f1a52eb.png)
 
 ### Summary
-在相同的資料集下，VGG16要訓練30 epochs才會收斂，收斂速度遠低於ResNet！
+在相同的資料集下，VGG16要訓練30 epochs才會收斂，收斂速度遠低於ResNet！  
 從training history來看，過程也比較不穩定！
