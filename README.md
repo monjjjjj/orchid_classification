@@ -35,3 +35,13 @@
 ![2model_acc](https://user-images.githubusercontent.com/62006029/192693721-8a73eada-d29e-418c-bcf3-19e5f02def85.png)
 #### Model loss
 ![2model_loss](https://user-images.githubusercontent.com/62006029/192693767-aed7ac87-3ee8-47db-a5d8-fdfb0c100aa6.png)
+
+### Summary
+由上圖可觀察到ResNet50的收斂速度比ResNet152還要快，此結論為合理的！  
+因ResNet152的參數量是ResNet50的2.5倍，因此收斂速度較慢是合理的。  
+儘管收斂速度較慢，但兩者最後的準確度是差異不大的，因此以蘭花分類來看的話，使用ResNet50即可！  
+
+---
+
+在使用ResNet做image classification前，是使用VGG16，因此在相同的資料集下，試試使用VGG16做Training！
+在相同的資料集下，使用VGG16做Training
