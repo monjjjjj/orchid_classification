@@ -43,5 +43,13 @@
 
 ---
 
-在使用ResNet做image classification前，是使用VGG16，因此在相同的資料集下，試試使用VGG16做Training！
-在相同的資料集下，使用VGG16做Training
+在使用ResNet做image classification前，是使用VGG16，因此在相同的資料集下，試試使用VGG16做Training！  
+### Result of VGG16
+#### Model accuracy
+![VGG16_acc](https://user-images.githubusercontent.com/62006029/193499979-17bb32f5-9c65-4f05-b8ee-fd5f2b00af3b.png)
+#### Model loss 
+![VGG16_loss](https://user-images.githubusercontent.com/62006029/193500098-8e4501bf-ff4c-465b-b9f4-a9124f1a52eb.png)
+
+### Summary
+在相同的資料集下，VGG16要訓練30 epochs才會收斂，收斂速度遠低於ResNet！
+從training history來看，過程也比較不穩定！
