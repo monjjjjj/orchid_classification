@@ -43,7 +43,7 @@
 
 ---
 
-在使用ResNet做image classification前，是使用VGG16，因此在相同的資料集下，試試使用VGG16做Training！  
+在ResNet出現之前，做image classification是使用VGG16，因此在相同的資料集下，試試使用VGG16做Training！  
 ### Result of VGG16
 #### Model accuracy
 ![VGG16_acc](https://user-images.githubusercontent.com/62006029/193499979-17bb32f5-9c65-4f05-b8ee-fd5f2b00af3b.png)
