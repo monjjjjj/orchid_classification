@@ -60,3 +60,13 @@
 ### Summary
 在相同的資料集下，VGG16要訓練30 epochs才會收斂，收斂速度遠低於ResNet！  
 從training history來看，過程也比較不穩定！
+
+
+---
+## 分割20%的training data來做validation data (使用ResNet50)
+### Result
+#### Model accuracy
+![ResNet50_val_acc](https://user-images.githubusercontent.com/62006029/193730136-473be82c-bc14-4175-9eb5-28a0d7250888.png)
+#### Model loss 
+![ResNet50_val_loss](https://user-images.githubusercontent.com/62006029/193730236-cd8adb16-9441-41fb-80e3-204bbb571c91.png)
+
