@@ -73,4 +73,6 @@
 ### Summary
 使用20%的訓練資料來當作驗證資料，但結果幾乎是沒有收斂（accuracy: 0.34246575832366943）  
 也許每個類別的testing data真的太少了，但原本想說如果我也將testing data做資料增補會不會有幫助！  
-結果看起來如果將testing data做資料增補後去做training，結果更差
+結果看起來如果將testing data做資料增補後去做training，結果更差！  
+詢問了其他人的意見後，才知道原來一般不會將testing data或validation data去做資料增補，會希望使用原圖去做validation！
+因為做了資料增補過後的圖有一定的失真度，可能會讓驗證結果變得更差！
