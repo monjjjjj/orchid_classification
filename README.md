@@ -13,10 +13,10 @@
 排除問題之後終於能夠繼續往下走！ 
 
 #### 困難3
-欲將training data提取20%的資料來做validation data，但蘭花資料集每個類別只有10張照片，如果提取20%的話代表每個類別只提取了兩張照片！  
-因為有提取一部分的training data來做validation data，所以有對剩下80%的training data做資料增補！
-結果顯示validation的準確度是很低的（大概在50~60%之間跳動），loss也降不下來～
-與其他人討論的結果，我們認為有可能是validation data的資料量不夠多，因而導致上述結果的產生！
+欲將training data提取20%的資料來做validation data，但蘭花資料集每個類別只有10張照片，如果提取20%的話代表每個類別只提取了兩張照片！    
+因為有提取一部分的training data來做validation data，所以有對剩下80%的training data做資料增補！  
+結果顯示validation的準確度是很低的（大概在50~60%之間跳動），loss也降不下來～  
+與其他人討論的結果，我們認為有可能是validation data的資料量不夠多，因而導致上述結果的產生！  
 
 ### 訓練過程說明
 - 使用ResNet50及ResNet152來訓練模型，並且比較結果  
