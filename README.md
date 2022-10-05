@@ -64,6 +64,7 @@
 
 ---
 ## 分割20%的training data來做validation data (使用ResNet50)
+80% training data, 20% testing data
 ### Result
 #### Model accuracy
 ![ResNet50_val_acc](https://user-images.githubusercontent.com/62006029/193730136-473be82c-bc14-4175-9eb5-28a0d7250888.png)
